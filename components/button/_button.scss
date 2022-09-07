@@ -4,7 +4,7 @@
   color: black;
   background: none;
   padding: 0;
-  border: none;
+  border: 1px solid transparent;
   margin: 0;
   position: relative;
   display: inline-block;
@@ -50,8 +50,9 @@
 
   &:hover {
     color: #ffe29c;
-    rt .button__bg {
-      transform: scale3d(1.2, 1.2, 1);
+
+    .button__bg {
+      box-shadow: 0px 0px 10px #ffe29c;
 
       &::before {
         transition: transform 0.4s cubic-bezier(0.1, 0, 0.3, 1);
@@ -60,7 +61,6 @@
 
       &::after {
         opacity: 1;
-        transition-duration: 0.01s;
         transition-delay: 0.3s;
       }
     }
@@ -69,6 +69,7 @@
   span {
     display: block;
     position: relative;
-    padding: 1.5rem 3rem;
+    padding: 15px 10px;
+    font-weight: bold;
   }
 }

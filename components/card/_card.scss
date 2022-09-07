@@ -10,7 +10,7 @@
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transform: translate(10px);
+    transform: translate(0, -10px);
   }
 
   &__image {
@@ -40,15 +40,13 @@
   }
 
   &__title {
-    font-family: "Roboto";
-    font-style: normal;
+    text-align: center;
     font-weight: 700;
     font-size: 1.25rem;
   }
 
   &__description {
-    font-family: "Roboto";
-    font-style: normal;
+    text-align: center;
     font-weight: 400;
     font-size: 1rem;
   }
