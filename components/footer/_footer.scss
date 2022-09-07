@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #378ba4;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__text {
+    text-align: center;
+    color: #e8ede7;
+    font-size: 1em;
+
+    span {
+      font-size: 0.8em;
+    }
+  }
+}
