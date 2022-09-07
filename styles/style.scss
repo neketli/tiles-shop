@@ -1,6 +1,8 @@
 @use "../components/header/header";
 @use "../components/footer/footer";
 @use "../components/button/button";
+@use "../components/card/card";
+@use "../components/sidebar/sidebar";
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik+Mono+One&display=swap");
 
@@ -19,6 +21,34 @@ body,
   height: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 #app {
   background-color: #e8ede7;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.main {
+  display: flex;
+  padding: 30px;
+  gap: 50px;
+  flex: 1 0 auto;
+
+  &__sidebar {
+    max-width: 20%;
+  }
+
+  &__content {
+    width: 100%;
+  }
+}
+
+.products {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
 }
