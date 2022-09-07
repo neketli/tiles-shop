@@ -39,6 +39,7 @@ a {
   flex: 1 0 auto;
 
   &__sidebar {
+    min-width: 150px;
     max-width: 20%;
   }
 
@@ -51,4 +52,16 @@ a {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(4, 1fr);
+
+  @media (max-width: 1025px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 728px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 500px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
