@@ -31,6 +31,13 @@
 
     background: #ffa850;
     border-radius: 0px 5px;
+
+    span {
+      text-decoration: line-through;
+      margin: 0 3px;
+      font-size: 0.8rem;
+      opacity: 0.6;
+    }
   }
 
   &__placeholder {
@@ -49,5 +56,9 @@
     text-align: center;
     font-weight: 400;
     font-size: 1rem;
+  }
+
+  &__button {
+    margin-top: auto;
   }
 }
