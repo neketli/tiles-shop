@@ -143,6 +143,12 @@
   background: #ffa850;
   border-radius: 0px 5px;
 }
+.card__price span {
+  text-decoration: line-through;
+  margin: 0 3px;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
 .card__placeholder {
   height: 200px;
   width: 100%;
@@ -157,6 +163,9 @@
   text-align: center;
   font-weight: 400;
   font-size: 1rem;
+}
+.card__button {
+  margin-top: auto;
 }
 
 .sidebar {
@@ -245,6 +254,56 @@ a {
 }
 .main__content {
   width: 100%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.about__header {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.about__banner {
+  width: 50%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.about__title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.about__description {
+  font-size: 1.3rem;
+}
+
+.firm {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.firm__header {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.firm__banner {
+  width: 50%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.firm__title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.firm__description {
+  font-size: 1.3rem;
 }
 
 .products {
