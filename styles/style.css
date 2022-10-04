@@ -58,7 +58,7 @@
   margin: 0;
   position: relative;
   display: inline-block;
-  transition: all 0.3s;
+  transition: color 0.3s;
 }
 .button__bg {
   top: 0;
@@ -95,7 +95,7 @@
 }
 .button:hover {
   color: #ffe29c;
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 .button:hover .button__bg {
   box-shadow: 0px 0px 10px #ffe29c;
@@ -323,4 +323,22 @@ a {
   .products {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+.login {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.login__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.login__button {
+  border-radius: 10px;
+  border: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
