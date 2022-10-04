@@ -5,12 +5,15 @@
   gap: 10px;
 
   background: #ffffff;
+  color: black;
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   transition: all 0.2s ease-in-out;
 
   &:hover {
     // transform: translate(0, -10px);
+  color: black;
+
   }
 
   &__image {
@@ -29,10 +32,12 @@
     right: -1px;
     padding: 3px 7px;
 
+  color: black;
     background: #ffa850;
     border-radius: 0px 5px;
 
     span {
+  color: black;
       text-decoration: line-through;
       margin: 0 3px;
       font-size: 0.8rem;
@@ -43,10 +48,12 @@
   &__placeholder {
     height: 200px;
     width: 100%;
+  color: black;
     background: #d9d9d9;
   }
 
   &__title {
+  color: black;
     text-align: center;
     font-weight: 700;
     font-size: 1.25rem;
@@ -54,11 +61,13 @@
 
   &__description {
     text-align: center;
+  color: black;
     font-weight: 400;
     font-size: 1rem;
   }
 
   &__button {
+  color: black;
     margin-top: auto;
   }
 }

@@ -121,9 +121,13 @@
   flex-direction: column;
   gap: 10px;
   background: #ffffff;
+  color: black;
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   transition: all 0.2s ease-in-out;
+}
+.card:hover {
+  color: black;
 }
 .card__image {
   position: relative;
@@ -138,10 +142,12 @@
   top: 0;
   right: -1px;
   padding: 3px 7px;
+  color: black;
   background: #ffa850;
   border-radius: 0px 5px;
 }
 .card__price span {
+  color: black;
   text-decoration: line-through;
   margin: 0 3px;
   font-size: 0.8rem;
@@ -150,19 +156,23 @@
 .card__placeholder {
   height: 200px;
   width: 100%;
+  color: black;
   background: #d9d9d9;
 }
 .card__title {
+  color: black;
   text-align: center;
   font-weight: 700;
   font-size: 1.25rem;
 }
 .card__description {
   text-align: center;
+  color: black;
   font-weight: 400;
   font-size: 1rem;
 }
 .card__button {
+  color: black;
   margin-top: auto;
 }
 
@@ -231,6 +241,7 @@ body,
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 #app {
@@ -341,4 +352,21 @@ a {
 .login__button {
   border-radius: 10px;
   border: 1px solid black;
+}
+
+.detail {
+  display: flex;
+  gap: 10px;
+}
+.detail__image {
+  display: flex;
+  height: 300px;
+}
+.detail__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.detail__title {
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

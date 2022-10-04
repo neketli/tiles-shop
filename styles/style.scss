@@ -23,6 +23,7 @@ body,
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 #app {
@@ -139,5 +140,25 @@ a {
 	&__button {
 		border-radius: 10px;
 		border: 1px solid black;
+	}
+}
+
+.detail {
+	display: flex;
+	gap: 10px;
+
+	&__image {
+		display: flex;
+		height: 300px;
+	}
+
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	&__title {
+		font-weight: bold;
 	}
 }
