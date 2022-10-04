@@ -31,9 +31,9 @@
 						</a>
 
 						<div class="sidebar__item-subtabs">
-							<div class="sidebar__item-subtab">Керамика</div>
-							<div class="sidebar__item-subtab">Керамогранит</div>
-							<div class="sidebar__item-subtab">Цементная</div>
+							<a href="?type=ceramic" class="sidebar__item-subtab">Керамика</a>
+							<a href="?type=ceramogranit" class="sidebar__item-subtab">Керамогранит</a>
+							<a href="?type=cement" class="sidebar__item-subtab">Цементная</a>
 						</div>
 					</div>
 
