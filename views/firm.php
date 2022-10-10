@@ -1,7 +1,7 @@
 <div class="firm">
 	<div class="firm__header">
 		<img src="../assets/firm.jpg" class="firm__banner" />
-		<h2 class="firm__title">Фирма "Плитка и точка"</h2>
+		<h2 class="firm__title">Фирма "Плитка и точк 2а"</h2>
 	</div>
 
 	<p class="firm__description">
